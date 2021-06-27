@@ -20,19 +20,18 @@ header {
   text-align: center;
   margin: 0 auto;
   padding: 1em;
-}
 
-.name {
+  .name {
   color: #fff;
   text-align: left;
-}
 
-.name h3 {
+   h3 {
   text-transform: uppercase;
   font-size: 1.75rem;
-}
+  }
 
-.scoreCount {
+  }
+   .scoreCount {
   text-transform: uppercase;
   background: #fff;
   color: #aaa;
@@ -42,53 +41,57 @@ header {
   align-self: center;
   padding: 1em;
   border-radius: 0.55rem;
+  }
+
 }
 
 section {
   margin: 2em auto;
-}
 
-.homeStage {
-  background: url(./images/bg-triangle.svg)no-repeat center center;
+  .homeStage {
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="305" height="277"><path fill="none" stroke="%23000" stroke-width="15" d="M291.5 7.5H4.574c3.119 0 52.416 84.667 147.892 254L291.5 7.5z" opacity=".2"/></svg>')no-repeat center center;
   text-align: center;
   position: relative;
   padding: 11em 0;
-}
 
-.icon {
+  .icon {
   background: #fff;
   padding: 2em;
   border-radius: 5rem;
-}
+  }
 
-#rock {
+  #rock {
   position: absolute;
   top: 11rem;
   left: 25rem;
   border: 1rem solid #dc2e4e;
-}
+  }
 
-#paper {
+  #paper {
   position: absolute;
   top: 0;
   left: 18rem;
   border: 1rem solid #4865f4;
-}
+  }
 
-#scissors {
+  #scissors {
   position: absolute;
   top: 0;
   left: 33rem;
   border: 1rem solid #ec9e0e;
+  }
+
+ }
 }
+
+
 
 footer {
   margin: 1em 0.55em;
   display: flex;
   justify-content: flex-end;
-}
 
-button {
+  .ruleButton {
   margin: 0.55em;
   padding: 0.85em;
   width: 12%;
@@ -97,4 +100,6 @@ button {
   color: #fff;
   background: #141539;
   text-transform: uppercase;
+ }
+
 }
